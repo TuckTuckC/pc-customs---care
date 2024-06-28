@@ -1,4 +1,24 @@
 .Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     border: 0.1rem solid black;
     height: 5rem;
+}
+
+.Navbar > div {
+    height: 80%;
+    border: 0.1rem solid black;
+}
+
+.Navbar > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.Navbar > a:hover {
+    cursor: pointer;
 }
