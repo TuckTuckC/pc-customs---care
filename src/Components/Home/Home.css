@@ -1,8 +1,9 @@
 .Home {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -17,6 +18,6 @@
 
 .best-pc {
     background-color: #bd5bff;
-    height: 40rem;
-    width: 60rem;
+    height: auto;
+    width: 40%;
 }
