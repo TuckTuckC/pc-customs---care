@@ -4,6 +4,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    
 }
 
 .hero {
@@ -14,10 +15,26 @@
     height: 50rem;
     background-color: #4c4c4c;
     padding: 2rem;
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2E1A71, #4528A5, #421A75);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #dda0dd;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .best-pc {
     background-color: #bd5bff;
     height: auto;
     width: 40%;
+    border-radius: 40%;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
 }
