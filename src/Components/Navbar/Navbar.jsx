@@ -35,7 +35,7 @@ function Navbar() {
         <div></div>
         <Link to="/">Custom Options</Link>
         <div></div>
-        <Link to="/">Contact Us</Link>
+        <Link to="/contact">Contact Us</Link>
     </div>
   )
 }
