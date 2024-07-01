@@ -1,0 +1,48 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.1rem solid black;
+    height: 5rem;
+    background-color: #421A75;
+    z-index: 2;
+}
+
+.Navbar > div {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.Navbar > a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(196, 158, 224);
+    font-size: 1.2rem;
+    background-color: #421A75;
+}
+
+.Navbar > a:hover {
+    cursor: pointer;
+    background-color: #5f27a9;
+}
+
+@media only screen and (max-width: 899px) {
+    .Navbar {
+        top: auto;
+        bottom: 0;
+    }
+}
+/* @media only screen and (min-width: 899px) {
+    .Navbar {
+        top: 0;
+    }
+} */

@@ -1,0 +1,116 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #4c4c4c;
+    padding: 2rem 5rem;
+
+    margin: 0;
+    background: linear-gradient(135deg, #2E1A71, #4528A5, #421A75);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #dda0dd;
+}
+
+.intro {
+    display: flex;
+    padding: 2rem;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.best-pc {
+    background-color: #bd5bff;
+    height: auto;
+    width: 40rem;
+    border-radius: 40%;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 72%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 72%);
+}
+
+.hookContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    margin-bottom: 8rem;
+}
+
+.hook {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* min-height: 40rem; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.hooks {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+@media only screen and (max-width: 899px) {
+    .best-pc {
+        width: 20rem;
+    }
+    .hero {
+        width: 100%;
+    }
+    .hook {
+        flex-direction: column;
+    }
+    .intro {
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 899px) {
+    .intro {
+        padding: 2rem 8rem;
+    }
+    .introContent {
+        width: 50%;
+        padding: 2rem;
+    }
+}
