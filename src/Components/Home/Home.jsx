@@ -4,8 +4,7 @@ import ActionPic from '../../images/action-picture.png';
 
 function Home() {
 	return (
-		<div className='Home'>
-			<div className='hero'>
+			<div className='Home'>
 				<div className="hookContainer">
 					<div className='hook'>
 						<img src={ActionPic} className='best-pc' />
@@ -42,7 +41,6 @@ function Home() {
 				<div>2 or 3 finished PCs</div>
 				<div>Why choose us?</div>
 			</div>
-		</div>
 	)
 }
 
