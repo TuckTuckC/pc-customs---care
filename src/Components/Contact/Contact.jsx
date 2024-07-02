@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Contact.css';
 
 function Contact() {
@@ -6,18 +6,21 @@ function Contact() {
     <div className='Contact'>
       <h1>Contact Us</h1>
       <div className='contact-info'>
-        <div className='address'>
+        <div className='location'>
           <h2>Our Location</h2>
-          {/* <p>1234 Tech Street</p> */}
           <p>Waynesville, NC 28786</p>
         </div>
-        <div className='phone'>
-          <h2>Call Us</h2>
-          <p>+1 (828) 318-6633</p>
-        </div>
-        <div className='email'>
-          <h2>Email Us</h2>
-          <p>contact@pccustomsandcare.com</p>
+        <div className='contact-methods'>
+          <div className='phone'>
+            <a href="tel:+18283186633" className="contact-button">
+              Call Us: <br />+1 (828) 318-6633
+            </a>
+          </div>
+          <div className='email'>
+            <a href="mailto:contact@pccustomsandcare.com" className="contact-button">
+              Email Us: <br />contact@pccustomsandcare.com
+            </a>
+          </div>
         </div>
       </div>
       <div className='contact-form'>
@@ -41,4 +44,5 @@ function Contact() {
     </div>
   );
 }
-export default Contact
+
+export default Contact;
