@@ -1,0 +1,67 @@
+.Options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #4c4c4c;
+    color: #dda0dd;
+  }
+  
+  .Options h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+  
+  .option-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .option-section h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .option-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .consultation {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+  }
+  
+  .contact-button {
+    display: block;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  
