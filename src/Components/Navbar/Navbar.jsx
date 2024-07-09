@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css';
 import {Link} from 'react-router-dom';
+import Logo from '../../images/pcLogo.png';
 
 import { useEffect } from 'react';
 
@@ -29,11 +30,11 @@ function Navbar() {
 
   return (
     <div className='Navbar'>
-        <Link to="/">Home</Link>
+        <Link to="/"><img src={Logo} className='logo' /></Link>
         <div></div>
         <Link to="/">Our Builds</Link>
         <div></div>
-        <Link to="/">Custom Options</Link>
+        <Link to="/options">Custom Options</Link>
         <div></div>
         <Link to="/contact">Contact Us</Link>
     </div>

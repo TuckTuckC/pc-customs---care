@@ -12,6 +12,7 @@ function Home() {
 							<h1>Choose Your Style</h1>
 							<h1>Choose Your Brand</h1>
 							<h1>Choose Your Power</h1>
+							<h1>Technical Support And Warranty</h1>
 						</div>
 					</div>
 					<a href="tel:+18283186633" className="btn">
