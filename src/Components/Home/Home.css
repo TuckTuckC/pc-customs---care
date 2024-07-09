@@ -82,6 +82,10 @@ strong {
     background-color: #0056b3;
 }
 
+.call {
+    margin-top: 2rem;
+}
+
 
 @media only screen and (max-width: 899px) {
     .best-pc {
