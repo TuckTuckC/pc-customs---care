@@ -19,7 +19,7 @@ function Options() {
         <div className='consultation'>
           <h2>Need Help Choosing?</h2>
           <p>If you're unsure about any of the options or need help customizing your PC, don't hesitate to reach out. We offer consultations to help you build the perfect PC to suit your needs.</p>
-          <a href="tel:+18283186633" className="contact-button">Call Us: +1 (828) 318-6633</a>
+          <a href="tel:+14045944220" className="contact-button">Call Us: +1 (404) 594-4220</a>
           <a href="mailto:contact@pccustomsandcare.com" className="contact-button">Email Us: contact@pccustomsandcare.com</a>
         </div>
       </div>

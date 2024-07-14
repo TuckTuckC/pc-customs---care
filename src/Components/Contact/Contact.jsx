@@ -12,8 +12,8 @@ function Contact() {
         </div>
         <div className='contact-methods'>
           <div className='phone'>
-            <a href="tel:+18283186633" className="contact-button">
-              Call Us: <br />+1 (828) 318-6633
+            <a href="tel:+14045944220" className="contact-button">
+              Call Us: <br />+1 (404) 594-4220
             </a>
           </div>
           <div className='email'>
