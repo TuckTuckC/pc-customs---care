@@ -32,7 +32,7 @@ function Navbar() {
     <div className='Navbar'>
         <Link to="/"><img src={Logo} className='logo' /></Link>
         <div></div>
-        <Link to="/">Our Builds</Link>
+        <Link to="/builds">Our Builds</Link>
         <div></div>
         <Link to="/options">Custom Options</Link>
         <div></div>

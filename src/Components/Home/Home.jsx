@@ -15,7 +15,7 @@ function Home() {
 							<h1>Technical Support And Warranty</h1>
 						</div>
 					</div>
-					<a href="tel:+18283186633" className="btn call">
+					<a href="tel:+14045944220" className="btn call">
 						Call Now!
 					</a>
 				</div>
