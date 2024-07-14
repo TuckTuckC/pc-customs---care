@@ -9,7 +9,7 @@
     border: 0.1rem solid black;
     height: 5rem;
     background-color: #421A75;
-    z-index: 2;
+    z-index: 10;
 }
 
 .logo {

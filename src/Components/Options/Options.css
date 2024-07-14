@@ -96,3 +96,15 @@
     }
   }
   
+  @media (max-width: 899px) {
+
+    .Options {
+      padding: 1rem;
+    }
+
+    .option-section, .intro, .consultation {
+      margin: 1rem;
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+  }
