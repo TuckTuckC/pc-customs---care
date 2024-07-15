@@ -39,8 +39,6 @@ function Home() {
 						</ul>
 					</div>
 				</div>
-				<div>2 or 3 finished PCs</div>
-				<div>Why choose us?</div>
 			</div>
 	)
 }
