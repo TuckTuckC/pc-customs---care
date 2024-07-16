@@ -25,7 +25,8 @@ function Contact() {
       </div>
       <div className='contact-form'>
         <h2>Send Us a Message</h2>
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <div className='form-group'>
             <label htmlFor='name'>Name</label>
             <input type='text' id='name' name='name' required />
